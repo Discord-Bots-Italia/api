@@ -11,7 +11,7 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 # Examples 
 
 ```import aiohttp
-``
+
 async with aiohttp.ClientSession() as a:
 
     r = await a.get("https://dbiapi.ssebastianoo.repl.co/api")
