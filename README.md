@@ -10,6 +10,16 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 
 # Examples 
 
+- Python Requests
+
+```
+import requests
+
+r = requests.get("https://dbiapi.ssebastianoo.repl.co/api").json()
+
+return r["Emoji Locker#7965"]["status"]["name"]
+```
+
 - Python Aiohttp
 
 ```
