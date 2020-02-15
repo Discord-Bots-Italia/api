@@ -10,6 +10,8 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 
 # Examples 
 
+- Python Aiohttp
+
 ```
 import aiohttp
 
