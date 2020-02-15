@@ -10,8 +10,7 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 
 # Examples 
 
-`
-import aiohttp
+`import aiohttp
 
 async with aiohttp.ClientSession() as a:
 
