@@ -6,7 +6,7 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 
 # GET
 
-`https://dbiapi.ssebastianoo.repl.co/api`
+`https://api.dbi.seba.gq/api`
 
 # Examples 
 
@@ -15,7 +15,7 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 ```
 import requests
 
-r = requests.get("https://dbiapi.ssebastianoo.repl.co/api").json()
+r = requests.get("https://api.dbi.seba.gq/api").json()
 
 return r["Emoji Locker#7965"]["status"]["name"]
 ```
@@ -27,7 +27,7 @@ import aiohttp
 
 async with aiohttp.ClientSession() as a:
 
-    r = await a.get("https://dbiapi.ssebastianoo.repl.co/api")
+    r = await a.get("https://api.dbi.seba.gq/api")
     
     b = await r.json()
     
