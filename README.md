@@ -2,7 +2,7 @@
 
 This API returns in a json format info about all the Bots in the Discord Server [Discord Bots Italia](https://www.discordbotsitalia.tk/join)
 
-Check the [website](https://dbiapi.ssebastianoo.repl.co)
+Check the [website](https://dbi.api.seba.gq)
 
 # GET
 
