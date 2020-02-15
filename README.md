@@ -10,11 +10,11 @@ Check the [website](https://dbiapi.ssebastianoo.repl.co)
 
 # Examples 
 
-`import aiohttp
-async with aiohttp.ClientSession() as a:
+`import aiohttp`
+`async with aiohttp.ClientSession() as a:`
 
-    r = await a.get("https://dbiapi.ssebastianoo.repl.co/api")
+    `r = await a.get("https://dbiapi.ssebastianoo.repl.co/api")``
 
-    b = await r.json()
+    `b = await r.json()`
 
-return b["Teo#8099"]["avatar_url"]`
+`return b["Teo#8099"]["avatar_url"]`
