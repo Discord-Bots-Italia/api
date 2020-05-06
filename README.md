@@ -17,7 +17,7 @@ import requests
 
 r = requests.get("https://api.dbi.seba.gq/api").json()
 
-return r["Emoji Locker#7965"]["status"]["name"]
+return r["609087387695316992"]["status"]["name"]
 ```
 
 - Python Aiohttp
@@ -31,5 +31,5 @@ async with aiohttp.ClientSession() as a:
     
     b = await r.json()
     
-return b["Teo#8099"]["avatar_url"]
+return b["607040796780134422"]["avatar_url"]
 ```
